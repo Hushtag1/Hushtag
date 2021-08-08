@@ -3,10 +3,6 @@
     <head>
         <section id="main-title">
                 <link rel="stylesheet" href="sakura.css" />
-            <style>
-                h1 { border-bottom: 3px solid rgb(0, 0, 0) }
-                h2 , h3 { font-weight: bold; }
-            </style>
             <h1>
                 <b>Orel Asulin CV</b>
             </h1>
@@ -137,7 +133,7 @@
                 <p>
                     <b>Phone:</b>
                     <nav>
-                        <a href =tel:054-4879011>Click to Call</a>
+                        <a href = tel:054-4879011>Click to Call</a>
                     </nav>
                 </p>
                 <p>
