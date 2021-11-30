@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="Game.css">
+</head>
+
+<body>
+    <div id="topPage">
+        <div>
+            <img id="memoryTitle" src="memoryTopic.jpg">
+        </div>
+    </div>
+
+
+    <div id="topImgs">
+        <img id="zodiacImg" src="Zodiac1.jpg" alt="view">
+        <img id="zodiacImg" src="Zodiac2.jpg" alt="view">
+        <img id="zodiacImg" src="Zodiac3.jpg" alt="view">
+    </div>
+    <div id="buttonPart">
+        <button class="gameButtons" type="button" onclick="startGame()"><b>Start Game</b></button>
+        <button class="gameButtons" type="button" onclick="scoreList()"><b>Score list</b></button>
+        <button class="gameButtons" type="button" onclick="showShuffle()"><b>Shuffle</b></button>
+        <button class="gameButtons" type="button" onclick="showCards()"><b>Show Cards</b></button>
+    </div>
+
+    <div id="gameBoard">
+        
+
+    </div>
+    <script src="Storage.js"></script>
+    <script src="Game.js"></script>
+</body>
+
+</html>
